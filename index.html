@@ -14,9 +14,9 @@
                 <nav>
                     <ul>
                         <a href="#projetos"><li>Projetos</li></a>
-                        <a href=""><li>Sobre Mim</li></a>
-                        <a href=""><li>Curriculum</li></a>
-                        <a href=""><li>Contato</li></a>
+                        <a href="#sobre"><li>Sobre Mim</li></a>
+                        <a href="" onclick="linkedin()"><li>Curriculum</li></a>
+                        <a href="#contato"><li>Contato</li></a>
                     </ul>
                 </nav>
             </div>
@@ -69,20 +69,20 @@
         </section>
         <section id="projetos">
             <div>
-                <h1> Meus Principais Projetos</h1>
+                <h1 class="titulo"> Meus Principais Projetos</h1>
             <div class="content">
                 <div class="ph">
-                    <div class="phinfo">
+                   <a href="https://catrevage.github.io/starbucks/" target="_blank"><div class="phinfo">
                         <h1>Starbucks</h1>
                         <p>HTML e CSS</p>
-                    </div>
+                    </div></a>
                     <img src="assets/img/gl1.png">
                 </div>
                 <div class="ph">
-                    <div class="phinfo">
+                    <a href="https://catrevage.github.io/stz/" target="_blank"><div class="phinfo">
                         <h1>STZ Software</h1>
                         <p>HTML e CSS</p>
-                    </div>
+                    </div></a>
                     <img src="assets/img/stz.png">
                 </div>
                <a href="https://catrevage.github.io/urna/" target="_blank"><div class="ph">
@@ -93,18 +93,18 @@
                     <img src="assets/img/gl_urna.png">
                 </div></a> 
                 <div class="ph">
-                    <div class="phinfo">
-                        <h1>Desenvolvendo</h1>
-                        <p></p>
-                    </div>
-                    <img src="assets/img/gl_fundo.png">
+                   <a href="https://github.com/Catrevage/exerciciosjava" target="_blank"><div class="phinfo">
+                        <h1>Java</h1>
+                        <p>Exercícios</p>
+                    </div></a>
+                    <img src="assets/img/java.png">
                 </div> 
                 <div class="ph">
-                    <div class="phinfo">
-                        <h1>Dsenvolvendo</h1>
-                        <p></p>
-                    </div>
-                    <img src="assets/img/gl_fundo.png">
+                    <a href="https://github.com/Catrevage/python" target="_blank"><div class="phinfo">
+                       <h1>Python</h1>
+                        <p>100 Exercícios</p>
+                    </div></a>
+                    <img src="assets/img/gl_python.png">
                 </div> 
                 <div class="ph">
                     <div class="phinfo">
@@ -167,6 +167,40 @@
             </div>    
             </div>
 
+        </section>
+        <section id="sobre">
+                <h1 class="titulo">Sobre Mim</h1>
+                <div class="content">
+                    <div class="foto">
+                        <img src="assets/img/workstation.jpg">
+                    </div>
+                    <div class="texto">
+                        <p>
+                            Sou Damião Júnior, trabalho formalmente na área de TI desde 2004. Sou aficionado por computadores desde quando vi um pela primeira vez em uma feira de ciências da escola em 1995. Desde então, comecei a me interessar pelo assunto, comecei aprendendo sobre hardware, sistemas operacionais e redes. Aos 20 anos, consegui meu primeiro emprego formal na área de TI.
+                            Sempre fui da área de infraestrutura, mas desde 2021 tenho me dedicado ao desenvolvimento de softwares. Sou casado, tenho 3 filhos e vivo em Arapiraca-AL, Brasil. 
+                        </p>
+                    </div>
+                </div>
+        </section>
+        <section id="contato">
+            <h1 class="titulo">Contato</h1>
+            <div class="content">
+                <form action="" method="post">
+                    <label>
+                        <input type="text" name="nome" required placeholder="Nome">
+                    </label><br>
+                    <label>
+                        <input type="tel" name="tel" required placeholder="Whatsapp">
+                    </label><br>
+                    <label>
+                        <input type="email" name="mail" required placeholder="E-mail">
+                    </label><br>
+                    <label>
+                        <textarea name="msg" required></textarea>
+                    </label> <br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
         </section>
 
     </main>

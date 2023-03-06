@@ -12,3 +12,7 @@ function showDiv(i) {
     }
 
 }
+
+function linkedin() {
+    alert('Visite meu linkedin, lá sempre tenho o meu curriculum atualizado! O link está no final da página.')
+}
