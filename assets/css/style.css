@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald:wght@400;700&display=swap');
+
+
+* {
+box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #050003;
+    background: linear-gradient(-75deg,#050003, #2f5969);
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: azure;
+}
+
+/* Header */
+.conteiner {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+
+.conteiner img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.conteiner .menu ul {
+    display: flex;
+    list-style-type: none;    
+}
+
+.conteiner .menu li {
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 25px;
+    
+}
+
+.conteiner .menu a {
+    text-decoration: none;
+    color: azure;
+    font-weight:700;
+    
+}
+
+.conteiner .menu a:hover {
+    border-bottom: 10px solid #e22b1f;
+    padding-bottom: 10px;
+}
+
+
+/*Banner */
+#banner .content {
+    height: calc(100vh - 200px);
+    display: flex;    
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 30px;
+}
+
+#banner .content .texto {
+    height: 400px;
+}
+#banner .content .texto h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+
+#banner .content .texto p {
+    font-size: 25px;
+    margin-top: 0px;
+    font-weight: bold;
+
+}
+
+#banner .content .imagens {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 350px;
+    margin-left: 50px;
+}
+
+#banner .content .imagens .skill {  
+    margin-top: 30px;
+    margin-right: 30px;
+    width: 130px;
+    height: 130px;
+
+}
+
+#banner .content .imagens .skill span {
+    background-color: #222225;
+    padding: 5px;
+    color:#e22b1f;
+    font-weight: bold;
+    border-radius: 20%;
+}
+
+
+#banner .content .imagens .skill:hover {
+    cursor: pointer;
+}
+
+#banner .content .imagens .skill img {
+    border-radius: 20%;
+    border-top-right-radius: 50%;
+    width: 100px;
+    height: 100px;    
+}
+
+#banner .content .imagens .skill {
+    display: flex;
+    flex-direction: column;   
+    width: 100px;
+    text-align: center;   
+
+}
+
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block !important;
+     
+}
+
+#banner .content .imagens .subimage {
+    display: none;
+}
+
+/*Projetos*/
+
+#projetos {
+    height: 100vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+#projetos h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+#projetos .content .phinfo {
+    position: absolute;
+    margin-top: 20px;
+    display: none;
+    width: 250px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.8);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+#projetos .content .ph:hover .phinfo{
+    display: flex;
+}
+#projetos .content .ph img {
+    width: 250px;
+    height: 150px;
+    margin-top: 20px;
+    margin-right: 20px;
+    
+}
+
+#projetos .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+}
+#projetos .links h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+#projetos a {
+    text-decoration: none;
+    color: azure;
+
+}
+
+/*Footer */
+
+footer {
+    padding: 10px;
+    background-color: #050003;
+    text-align: center;
+    
+}
+
+footer .redes img {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
