@@ -269,7 +269,7 @@ footer .redes img {
 
 /*Responsividade*/
 
-@media (max-width: 1140px) {
+@media (min-width: 768px) and (max-width: 1140px) {
 
     .conteiner .menu li{
         font-size: 20px;
@@ -284,7 +284,7 @@ footer .redes img {
         font-size: 30px;
 
     }
-@media (max-width: 768px) {
+@media (min-width: 425px) and (max-width: 767px) {
     .menu {
         display: none;
     }
@@ -310,7 +310,7 @@ footer .redes img {
     }
 }
 
-@media (max-width: 425px) {
+@media (min-width: 375px) and (max-width: 424px) {
     #banner .content {
         height: auto;
         padding-left: 20px;
