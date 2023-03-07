@@ -355,7 +355,7 @@ footer .redes img {
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 374px) {
     #sobre .content .foto img {
         width: 330px;
         height: 250px;
