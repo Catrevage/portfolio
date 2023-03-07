@@ -14,9 +14,10 @@ body {
     color: azure;
 }
 .titulo {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 40px;
+    margin-top: 50px;
     border-bottom: 5px solid #e22b1f;
 
 }
@@ -70,15 +71,20 @@ body {
 }
 
 #banner .content .texto {
+    font-family: 'Oswald', sans-serif;
     height: 400px;
 }
 
 
 #banner .content .texto p {
-    font-size: 25px;
+    font-size: 40px;
     margin-top: 0px;
     font-weight: bold;
 
+}
+
+#banner .content .texto h1 {
+    font-size: 60px;
 }
 
 #banner .content .imagens {
@@ -142,7 +148,7 @@ body {
 /*Projetos*/
 
 #projetos {
-    height: 100vh;
+    height: auto;
     padding-left: 50px;
     padding-right: 50px;
     display: flex;
@@ -181,7 +187,7 @@ body {
     height: auto;
 }
 #projetos .links h2 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 }
 
@@ -193,7 +199,7 @@ body {
 
 /*sobre*/
 #sobre {
-    height: 100vh;
+    height: auto;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -215,7 +221,7 @@ body {
 
 /*contato*/
 #contato {
-    height: 100vh;
+    height: auto;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -259,4 +265,110 @@ footer .redes img {
     width: 20px;
     height: 20px;
     margin: 10px;
+}
+
+/*Responsividade*/
+
+@media (max-width: 1140px) {
+
+    .conteiner .menu li{
+        font-size: 20px;
+    }
+
+    #banner .content .texto h1{
+        font-size: 50px;
+
+    }
+
+    #banner .content .texto p {
+        font-size: 30px;
+
+    }
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    #banner .content .texto h1{
+        font-size: 40px;
+
+    }
+
+    #banner .content .texto p {
+        font-size: 20px;
+
+    }
+
+    #banner .content .imagens .skill {
+        width: 80px;
+        height: 80px;
+
+    }
+
+    #sobre .content {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 425px) {
+    #banner .content {
+        height: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        flex-direction: column;
+
+    }
+
+    #banner .content .imagens {
+        margin-left: 0px;
+    }
+
+    #projetos {
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    #sobre {
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    #contato {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #sobre .content .foto img {
+        width: 370px;
+        height: 250px;
+    }
+
+    #contato input[type='text'] {
+        width: 380px;
+
+    }
+
+    #contato textarea {
+        width: 380px;
+    }
+}
+
+@media (max-width: 375px) {
+    #sobre .content .foto img {
+        width: 330px;
+        height: 250px;
+    }
+
+    #contato input[type='text'] {
+        width: 340px;
+
+    }
+
+    #contato textarea {
+        width: 340px;
+    }
+}
+
 }

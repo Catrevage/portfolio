@@ -26,8 +26,8 @@
         <section id="banner">
             <div class="content">
                 <div class="texto">
-                    <h1>Damião Júnior <br> Desenvolvedor Full Stack Freelancer.</h1>
-                    <p>Desenvolvimento de Sites(Frontend e Backend), Aplicativos Mobile e Desktop.</p>
+                    <h1>Damião Júnior <br> Desenvolvedor Full Stack.</h1>
+                    <p>Desenvolvimento de Sistemas Web(Frontend e Backend), Aplicativos Mobile e Desktop.</p>
                 </div>
                 <div class="imagens">
                     <div onmouseenter="showDiv('html')" onmouseleave="showDiv('html')" class="skill html">
@@ -157,13 +157,9 @@
                 </div>
             </div>
             <div class="links">
-                <h2>Links para os fontes no GitHub</h2>
-                <ul>
-                    <a><li>Star Bukcs(cover)</li></a>
-                    <a><li>STZ</li></a>
-                    <a><li>Urna Eletônica</li></a>
-                    <a><li>Java</li></a>
-                </ul>
+                <h2>Link para os fontes no GitHub</h2><br>
+                <a href="https://github.com/Catrevage" target="_blank">Perfil do GitHub</a>
+                
             </div>    
             </div>
 
@@ -185,7 +181,7 @@
         <section id="contato">
             <h1 class="titulo">Contato</h1>
             <div class="content">
-                <form action="" method="post">
+                <form action="https://formspree.io/f/xleknyna" method="POST">
                     <label>
                         <input type="text" name="nome" required placeholder="Nome">
                     </label><br>
@@ -196,9 +192,9 @@
                         <input type="email" name="mail" required placeholder="E-mail">
                     </label><br>
                     <label>
-                        <textarea name="msg" required></textarea>
+                        <textarea name="msg" required placeholder="Digite sua mensagem aqui!"></textarea>
                     </label> <br>
-                    <input type="submit" value="Enviar">
+                    <input onclick="enviar()" type="submit" value="Enviar">
                 </form>
             </div>
         </section>

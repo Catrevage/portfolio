@@ -14,5 +14,9 @@ function showDiv(i) {
 }
 
 function linkedin() {
-    alert('Visite meu linkedin, lá sempre tenho o meu curriculum atualizado! O link está no final da página.')
+    alert('Visite o meu perfil no Linkedin, lá sempre tenho o meu curriculum atualizado! O link está no rodapé da página.');
+}
+
+function enviar() {
+    alert('Mensagem enviada com sucesso!');
 }
