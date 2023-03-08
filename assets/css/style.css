@@ -269,106 +269,158 @@ footer .redes img {
 
 /*Responsividade*/
 
-@media (min-width:768px) and (max-width: 1140px) {
-
-    .conteiner .menu li{
-        font-size: 20px;
-    }
-
-    #banner .content .texto h1{
-        font-size: 50px;
-
-    }
-
-    #banner .content .texto p {
-        font-size: 30px;
-
-    }
-@media (min-width: 425px) and (max-width: 767px) {
-    .menu {
-        display: none;
-    }
-
-    #banner .content .texto h1{
-        font-size: 40px;
-
-    }
-
-    #banner .content .texto p {
-        font-size: 20px;
-
-    }
-
-    #banner .content .imagens .skill {
+@media (max-width: 937px) {
+    #banner .content .imagens .skill  {
         width: 80px;
         height: 80px;
-
+    }    
+    #banner .content .texto {
+    width: 400px;
     }
+    
+    #banner .content .texto h1 {
+        font-size: 40px;
+    }
+    
+    
+    #banner .content .texto p {
+        font-size: 30px;
+            
+    }
+}
+
+@media (max-width: 877px) {
+   
+    #banner .content {
+        flex-direction: column;
+    }
+
+    #banner .content .texto {
+        width: auto;
+    }
+
+    .titulo {
+        font-size: 30px;
+    }
+
+    .conteiner .menu li {
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
 
     #sobre .content {
         flex-direction: column;
     }
+
+   
 }
 
-@media (min-width: 375px) and (max-width: 424px) {
+@media (max-width: 712px) {
+    .conteiner .menu li {
+        display: none;
+    }
+}
+
+@media (max-width: 654px) {
     #banner .content {
         height: auto;
-        padding-left: 20px;
-        padding-right: 20px;
-        flex-direction: column;
-
     }
 
     #banner .content .imagens {
         margin-left: 0px;
     }
 
-    #projetos {
-        padding-left: 20px;
-        padding-right: 20px;
+}
 
+@media (max-width: 475px) {
+    #sobre .content .foto img {
+        width: 300px;
+    }  
+    
+    #contato textarea  {
+        width: 300px;
+    }
+
+    #contato input[type='text'] {
+        width: 300px;
+    }
+
+    #banner .content .texto h1 {
+        font-size: 35px;
+    }
+    
+    
+    #banner .content .texto p {
+        font-size: 25px;
+            
+    }
+
+    .titulo {
+        font-size: 25px;
+    }
+
+    #banner .content {
+        padding-left: 30px;
+        padding-right: 30px ;
+    }
+
+    #projetos {
+        padding-left: 30px;
+        padding-right: 30px ;
     }
 
     #sobre {
-        padding-left: 20px;
-        padding-right: 20px;
-
+        padding-left: 30px;
+        padding-right: 30px ;
     }
 
     #contato {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 30px;
+        padding-right: 30px ;
     }
 
-    #sobre .content .foto img {
-        width: 370px;
-        height: 250px;
+
+}
+
+@media (max-width: 389px) {
+    
+    #banner .content .texto {
+        height: auto;
     }
 
-    #contato input[type='text'] {
-        width: 380px;
-
+    
+    #banner .content .imagens .skill {
+        width: 60px;
+        height: 60px;
+        margin-top: 0px;
+        margin-right: 50px;
     }
 
-    #contato textarea {
-        width: 380px;
+    #banner .content {
+        padding-left: 10px;
+        padding-right: 10px ;
+    }
+
+    #projetos {
+        padding-left: 10px;
+        padding-right: 10px ;
+    }
+
+    #sobre {
+        padding-left: 10px;
+        padding-right: 10px ;
+    }
+
+    #contato {
+        padding-left: 10px;
+        padding-right: 10px ;
     }
 }
 
-@media (max-width: 374px) {
-    #sobre .content .foto img {
-        width: 330px;
-        height: 250px;
+@media (max-width: 350px ) {
+    #banner .content .imagens .skill {
+        margin-right: 40px;
     }
-
-    #contato input[type='text'] {
-        width: 340px;
-
-    }
-
-    #contato textarea {
-        width: 340px;
-    }
-}
-
 }
