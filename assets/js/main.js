@@ -18,5 +18,5 @@ function linkedin() {
 }
 
 function enviar() {
-    alert('Mensagem enviada com sucesso!');
+    
 }
